@@ -1,0 +1,13 @@
+.give-reviews .btn:disabled { background: #9db5ac; }
+.stars { display: flex; gap: 4px; }
+.star {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #cfd8d4;
+  cursor: pointer;
+  line-height: 1;
+}
+.star.filled { color: #f5a623; }
+.submitted-review { margin-top: 8px; font-size: 13px; color: var(--muted); }
+.submitted-review .rating { color: #f5a623; }

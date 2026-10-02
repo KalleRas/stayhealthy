@@ -1,0 +1,22 @@
+.appointment-card {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 300px;
+  background: #fff;
+  border-left: 5px solid var(--green);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  z-index: 150;
+  animation: slide-in 0.4s ease;
+}
+.appointment-card__content { padding: 16px 18px; }
+.appointment-card__title { color: var(--green); font-size: 17px; margin-bottom: 8px; }
+.appointment-card__message { font-size: 14px; margin-bottom: 2px; }
+@keyframes slide-in {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@media (max-width: 768px) {
+  .appointment-card { left: 16px; right: 16px; width: auto; }
+}

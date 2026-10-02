@@ -1,0 +1,27 @@
+.profile-container { padding: 40px 16px; }
+.profile-card {
+  max-width: 440px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: 0 6px 24px rgba(11, 110, 79, 0.08);
+}
+.profile-avatar {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-details { text-align: center; }
+.profile-details h1 { font-size: 24px; margin-bottom: 12px; }
+.profile-details p { margin-bottom: 6px; }
+.profile-details .btn { margin-top: 14px; min-width: 120px; }
